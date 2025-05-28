@@ -18,6 +18,6 @@ $('#header-navbar-btn>div>button').eq(3).on('click', function () {
     location.href = 'study.html'
 });
 
-$('.header-navbar-caffebtn').on('click', function () {
+$('.header-navbar-caffe>button').on('click', function () {
     location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 });
