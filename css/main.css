@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*색상 참고
+https://colorhunt.co/palette/ad8b73ceab93e3caa5fffbe9
+https://colorhunt.co/palette/1c0a00361500603601cc9544
+*/
+
+html{
+    --main-bg-color: #fffaf2;
+    --main-text-color:#1C0A00;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--main-bg-color);
+    font-family: "Noto Sans", "Noto Sans KR", serif;
+    margin: auto;
+}
+
+div {
+    box-sizing: border-box;
+    /*    border: 1px solid black;*/
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.content-wrapper {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    max-width: 1100px;
+    min-width: 985px;
+    margin: auto;
+    color: var(--main-text-color);
+}
+
+.header-navbar {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header-navbar > div {
+    text-align: center;
+    align-content: center;
+    padding: 15px 0px 15px 0px;
+    width: 25%;
+    /*    flex-grow: 1;*/
+
+}
+
+.header-navbar-icon {
+    font-family: "Noto Sans", serif;
+    font-size: 20px;
+    font-weight: 600;
+    /*    width: 190px;*/
+
+    line-height: 35px;
+    clear: both;
+    color: var(--main-text-color);
+    min-width: 190px;
+}
+
+.header-navbar-icon:hover {
+    cursor: pointer;
+}
+
+#latte-bg {
+    background-color: white;
+    border: 1px solid #E3CAA5;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+}
+
+.header-navbar-icon > div {
+    max-width: 190px;
+}
+
+.header-navbar-icon img {
+    width: 25px;
+    border-radius: 50%;
+    filter: invert(6%) sepia(68%) saturate(1496%) hue-rotate(12deg) brightness(100%) contrast(106%);
+}
+
+
+#header-navbar-btn {
+    display: flex;
+    width: 40%;
+    min-width: 400px;
+    justify-content: space-around;
+}
+
+#header-navbar-btn button {
+    font-family: "Noto Sans", serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+    background-color: var(--main-bg-color);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    color: var(--main-text-color);
+    min-width: 85px;
+}
+
+#header-navbar-btn button:hover {
+    color: #FFFBE9;
+    background-color: #E3CAA5;
+    cursor: pointer;
+}
+
+.header-navbar-caffe{
+    min-width: 150px;
+}
+
+.header-navbar-caffe button {
+    color: white;
+    background-color: var(--main-text-color);
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 25px;
+}
+
+.header-navbar-caffe button:hover {
+    color: #FBF8F1;
+    background-color: #361500;
+    cursor: pointer;
+}

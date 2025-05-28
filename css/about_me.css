@@ -1,0 +1,176 @@
+/*
+div {
+    border: 1px solid black;
+}
+ul {
+    border: 1px solid black;
+}
+li {
+    border: 1px solid black;
+}
+*/
+
+.content-wrapper > div {
+    margin-bottom: 100px;
+}
+
+.background-resume {
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/code3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    padding: 1px;
+}
+
+.resume-title {
+    display: flex;
+}
+
+.resume-personal_info {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 2fr;
+
+}
+
+.resume-headshot {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/headshot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    padding: 1px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.border-h {
+    width: 1px;
+    height: 150px;
+}
+
+.line{
+    border: 1px solid rgb(28, 10, 0, 0.2);
+    margin: auto;
+}
+
+.personal_info-detail {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 35px 35px 35px 35px;
+    min-width: 300px;
+}
+
+.personal_info-detail div {
+    align-content: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.resume-2col {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+.resume-section {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-border {
+    width: 45px;
+    height: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #CC9544;
+}
+
+.reusme-skill_taple {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 40px 60px 40px 60px 60px;
+    min-width: 500px;
+}
+
+.reusme-skill_taple div {
+    align-content: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.resume-projects {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 50px;
+}
+
+.projects_title {
+    font-size: 18px;
+}
+
+.reusme-projects_taple {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 15px;
+    min-width: 500px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
+.main_job{
+    margin: 0px;
+}
+
+.main_job li{
+    margin-bottom: 10px;
+}
+
+.git_link{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.text-middle {
+    align-content: center;
+}
+
+.title-name {
+    margin-top: auto;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+.title-desc {
+    margin-top: 0px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.list-contents {
+    margin-bottom: 50px;
+}
+
+.list-contents p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-big {
+    font-size: 35px;
+}
+
+.text-small {
+    font-size: 15px;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+.m-0{
+    margin: 0px;
+}

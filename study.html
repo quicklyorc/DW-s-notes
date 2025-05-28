@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="icon/favicon.png" type="image/x-icon">
+    <title>DW's 코딩노트</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/study.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header-navbar">
+        <!--메인 로고-->
+        <div class="header-navbar-icon">
+            <div>
+                <div id="latte-bg"><img src="/icon/logo_latte.svg"></div>D.W's Notes
+            </div>
+        </div>
+        <!--navbar 버튼들-->
+        <div id="header-navbar-btn">
+            <div><button>Home</button></div>
+            <div><button>About me</button></div>
+            <div><button>Projects</button></div>
+            <div><button>Study</button></div>
+        </div>
+        <!--커피 릭롤링-->
+        <div class="header-navbar-caffe">
+            <button>
+                <i class="fa-solid fa-mug-hot"></i> Coffee?
+            </button>
+        </div>
+    </div>
+
+    <div class="background-study">
+        <h1>Learning Archive</h1>
+        <h4>"The beautiful thing about learning is nobody can take it away from you."</h4>
+        <h5>– B.B. King –</h5>
+    </div>
+    <div id="studyshelf" class="content-wrapper">
+        <h3>Study Shelf</h3>
+        <h5>Remind yourself what you’ve learned.</h5>
+        <div class="col2_card-study">
+            <div>
+                <div><i class="fab fa-html5"></i>
+                    <h3>HTML &amp; CSS</h3>
+                </div>
+            </div>
+            <div>
+                <div><i class="fab fa-js"></i>
+                    <h3>Java Script</h3>
+                </div>
+            </div>
+            <div>
+                <div><i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div>
+                <div><i class="fas fa-tools"></i>
+                    <h3>etc</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+        $('.col2_card-study>div').eq(0).on('click', function() {
+            location.href = 'study/html_css.html'
+        });
+
+        $('.col2_card-study>div').eq(1).on('click', function() {
+            location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        });
+
+        $('.col2_card-study>div').eq(2).on('click', function() {
+            location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        });
+
+        $('.col2_card-study>div').eq(3).on('click', function() {
+            location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        });
+    </script>
+</body>
+
+</html>

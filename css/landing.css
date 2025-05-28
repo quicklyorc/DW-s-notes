@@ -1,0 +1,73 @@
+.content-main {
+    text-align: center;
+}
+
+.content-main h1 {
+    color: var(--main-text-color);
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+.content-main h1 span {
+    display: inline-block;
+    background: linear-gradient(to bottom, white 40%, var(--main-text-color) 60%);
+    background-size: 100% 200%;
+    background-position: bottom;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition: all 2s;
+}
+
+.content-main h1:hover span {
+    animation-name: Latte;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translateY(-2px) translateX(-2px) scale(1.1);
+}
+
+.content-main p:nth-child(2) {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.content-main p:nth-child(3) {
+    font-family: "Noto Sans KR", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.content-main img {
+    width: 600px;
+    margin: auto;
+}
+
+@keyframes Latte {
+    0% {
+        background-position: bottom;
+    }
+
+    70% {
+        background-position: top;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0.3;
+    }
+
+
+    100% {
+        opacity: 1;
+        color: #644A37;
+        -webkit-text-fill-color: #644A37;
+    }
+
+}
